@@ -7,22 +7,10 @@
       "role": "Admin"
     },
     {
-      "email": "franciscoM@yop.com",
-      "password": "$2a$10$sX9E0yz3qZkVH1UKCYJdcOZR883sKRE/28x.S1KTkoKgKnB21kOUa",
-      "role": "Mecanico",
-      "id": 4
-    },
-    {
-      "id": 5,
+      "id": 2,
       "role": "Admin",
       "email": "franciscoMecanico@yop.com",
-      "password": "$2a$10$evr4eoPfU0aKnY3m9VPHaezPr.VYvK1oy6tHf9bHvIKBv.uvdCaWe"
-    },
-    {
-      "email": "aa@yop.com",
-      "password": "$2a$10$pDODFnmsYDdClM1.Qn/SJ.0kdhAXisVc3WakDXoUKhBqW9jAm6vja",
-      "role": "Mecanico",
-      "id": 6
+      "password": "$2a$10$fysyoxmLR8Dlb2isQ5qj7euDjr9SqqKlHhritcKf.L0U.AVVRDDwK"
     }
   ],
   "revision": [

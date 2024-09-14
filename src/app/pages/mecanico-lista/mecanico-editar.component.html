@@ -1,40 +1,41 @@
 <div class="container-fluid mt-4">
     <div class="row">
-      <!-- Columna de filtros a la izquierda -->
-      <div class="col-md-3">
-        <div class="filters-container">
-          <h3 class="filters-title">Filtros</h3>
-          <div class="form-group">
-            <label for="placaSelect" class="form-label">Filtrar por Placa:</label>
-            <input id="placaSelect" class="form-control" type="text" [(ngModel)]="placaSeleccionada" placeholder="Escribe la placa">
-          </div>
-  
-          <div class="form-group">
-            <label for="descripcionSelect" class="form-label">Filtrar por Descripción:</label>
-            <input id="descripcionSelect" class="form-control" type="text" [(ngModel)]="descripcionSeleccionada" placeholder="Escribe la descripción">
-          </div>
+        <!-- Columna de filtros a la izquierda -->
+        <div class="col-md-3">
+            <div class="filters-container">
+                <h3 class="filters-title">Filtros</h3>
+                <div class="form-group">
+                    <label for="placaSelect" class="form-label">Filtrar por Placa:</label>
+                    <input id="placaSelect" class="form-control" type="text" [(ngModel)]="placaSeleccionada"
+                        placeholder="Escribe la placa">
+                </div>
+
+                <div class="form-group">
+                    <label for="descripcionSelect" class="form-label">Filtrar por Descripción:</label>
+                    <input id="descripcionSelect" class="form-control" type="text" [(ngModel)]="descripcionSeleccionada"
+                        placeholder="Escribe la descripción">
+                </div>
+            </div>
         </div>
-      </div>
-  
-      <!-- Columna de revisiones a la derecha -->
-      <div class="col-md-9">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th>Id</th>
-              <th>Placa</th>
-              <th>Descripción</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr *ngFor="let revision of revisionesFiltradas">
-              <td>{{revision.id}}</td>
-              <td>{{revision.placa}}</td>
-              <td>{{revision.descripcion}}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+
+        <!-- Columna de revisiones a la derecha -->
+        <div class="col-md-9">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Placa</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let revision of revisionesFiltradas">
+                        <td>{{revision.id}}</td>
+                        <td>{{revision.placa}}</td>
+                        <td>{{revision.descripcion}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-  </div>
-  
+</div>

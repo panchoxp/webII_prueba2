@@ -33,15 +33,14 @@ export class UsuarioEditarComponent {
   }
 
   editar(formulario: NgForm) {
-    // Si el formulario no incluye la contraseña nueva, usamos la contraseña actual
     const usuarioActualizado = {
       id: this.id,
       role: this.role,
       email: this.email,
-      password: this.password || formulario.value.password // Mantener la contraseña existente
+      // Solo enviar la nueva contraseña si fue ingresada, de lo contrario usar la contraseña actual
+      password: this.password || formulario.value.password 
     };
   
-    // Llamada al servicio para actualizar el usuario
     this.servicio.putUsuario(usuarioActualizado).subscribe(() => {
       alert('Usuario editado correctamente');
       window.location.href = 'admin';
