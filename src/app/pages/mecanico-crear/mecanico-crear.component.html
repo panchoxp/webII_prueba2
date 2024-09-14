@@ -1,0 +1,17 @@
+<div class="container">
+    <h2 class="text-center mb-4">Agregar revision</h2>
+    <form (ngSubmit)="guardarRevision(formulario)" #formulario="ngForm">
+      
+
+      <div class="mb-3">
+        <label for="autor" class="form-label">Placa:</label>
+        <input type="text" class="form-control" id="placa" name="placa" [(ngModel)]="placa" required>
+      </div>
+      <div class="mb-3">
+        <label for="descripcion" class="form-label">Descripción:</label>
+        <textarea id="descripcion" class="form-control" name="descripcion" [(ngModel)]="descripcion" rows="4" required></textarea>
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Guardar revision</button>
+    </form>
+  </div>

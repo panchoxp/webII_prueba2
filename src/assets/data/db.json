@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "email": "franciscoA@yop.com",
+      "password": "$2a$10$OaK8Rf/yP3l87TIkB.jjaOdIsG0synKBVlZGPB2dNiLbGN4La/sUS",
+      "id": 1,
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "role": "Mecanico",
+      "email": "franciscoM@yop.com",
+      "password": "$2a$10$09Xu8.7s3TGW/h1BAsQPoOR.Nb.BIlKAiVqw/2zE8kz/8ueeCKOkC"
+    },
+    {
+      "email": "franciscoMecanico@yop.com",
+      "password": "$2a$10$o5MSKhbL83F2gQqzJiSfY.cz9YVugJjJ.PltW4vdTo8K6FW8khs/6",
+      "role": "Mecanico",
+      "id": 3
+    }
+  ],
+  "revision": [
+    {
+      "id": 1,
+      "placa": "IBB-5506",
+      "descripcion": "carro color marron"
+    },
+    {
+      "placa": "Ibb-4506 extra",
+      "descripcion": "carro g",
+      "id": 2
+    }
+  ]
+}
