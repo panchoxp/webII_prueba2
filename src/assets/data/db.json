@@ -7,16 +7,22 @@
       "role": "Admin"
     },
     {
-      "id": 2,
-      "role": "Mecanico",
       "email": "franciscoM@yop.com",
-      "password": "$2a$10$09Xu8.7s3TGW/h1BAsQPoOR.Nb.BIlKAiVqw/2zE8kz/8ueeCKOkC"
+      "password": "$2a$10$sX9E0yz3qZkVH1UKCYJdcOZR883sKRE/28x.S1KTkoKgKnB21kOUa",
+      "role": "Mecanico",
+      "id": 4
     },
     {
+      "id": 5,
+      "role": "Admin",
       "email": "franciscoMecanico@yop.com",
-      "password": "$2a$10$o5MSKhbL83F2gQqzJiSfY.cz9YVugJjJ.PltW4vdTo8K6FW8khs/6",
+      "password": "$2a$10$evr4eoPfU0aKnY3m9VPHaezPr.VYvK1oy6tHf9bHvIKBv.uvdCaWe"
+    },
+    {
+      "email": "aa@yop.com",
+      "password": "$2a$10$pDODFnmsYDdClM1.Qn/SJ.0kdhAXisVc3WakDXoUKhBqW9jAm6vja",
       "role": "Mecanico",
-      "id": 3
+      "id": 6
     }
   ],
   "revision": [
@@ -29,6 +35,11 @@
       "placa": "Ibb-4506 extra",
       "descripcion": "carro g",
       "id": 2
+    },
+    {
+      "placa": "Ibb-4506 extra asasd",
+      "descripcion": "asdasdasdasdasd",
+      "id": 3
     }
   ]
 }

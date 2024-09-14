@@ -8,12 +8,12 @@
       </li>
 
       <!-- Solo Librarian y Admin pueden ver estos enlaces -->
-      <li class="nav-item" *ngIf="isAuthenticated && (role === 'Admin')">
+      <li class="nav-item">
         <a class="nav-link" routerLink="/admin">Admin</a>
       </li>
 
       <!-- Solo Admin puede ver estos enlaces -->
-      <li class="nav-item" *ngIf="isAuthenticated && role === 'Mecanico'">
+      <li class="nav-item">
         <a class="nav-link" routerLink="/mecanico">Gestión Revision</a>
       </li>
     </ul>
